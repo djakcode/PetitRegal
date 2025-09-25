@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Facebook, Instagram, Phone, Mail, MapPin } from "lucide-react";
+import logo from "../images/logo-petit-regal-1.png";
 
 const Footer = () => {
   return (
@@ -9,7 +10,11 @@ const Footer = () => {
           {/* Logo et description */}
           <div className="flex flex-col items-center md:items-start">
             <Link to="/" className="text-3xl font-extrabold text-pink-500 mb-2">
-              🍦 Petit Regal
+              <img
+                src={logo}
+                alt="Logo de Petit Régal"
+                className="w-20 h-auto rounded-full"
+              />
             </Link>
             <p className="text-center md:text-left text-gray-400 max-w-sm">
               Découvrez la douceur de l'artisanat malien à travers nos glaces

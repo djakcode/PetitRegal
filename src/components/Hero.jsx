@@ -23,7 +23,7 @@ const itemVariants = {
 
 function Hero() {
   return (
-    <section className="bg-pink-50 text-gray-800 py-16 lg:py-24">
+    <section className="bg-pink-50 text-gray-800 py-16 lg:py-24  h-[calc(100vh-96px)] flex items-center justify-center">
       <div className="container mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* Colonne de gauche (texte) */}
         <motion.div
@@ -72,7 +72,7 @@ function Hero() {
           <img
             src={gateau_mariage_4etages_fleurs}
             alt="Magnifique glace artisanale"
-            className="rounded-3xl shadow-2xl w-full max-w-md object-cover"
+            className="rounded-3xl shadow-2xl w-full max-w-md object-cover max-h-96"
           />
         </motion.div>
       </div>

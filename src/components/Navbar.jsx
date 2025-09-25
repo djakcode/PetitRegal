@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { ShoppingCart, Menu } from "lucide-react";
 import { useState } from "react";
+import logo from "../images/logo-petit-regal-1.png";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,9 +11,13 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center px-4 py-3">
         <Link to="/" className="flex items-center space-x-2">
           {/* Add logo here */}
-          <span className="text-3xl font-extrabold tracking-tight">
-            🍦 Petit Regal
-          </span>
+          <div className="w-16">
+            <img
+              src={logo}
+              alt="logo de Petit Régal"
+              className="rounded-full object-cover"
+            />
+          </div>
         </Link>
 
         {/* Larger screen navbar */}

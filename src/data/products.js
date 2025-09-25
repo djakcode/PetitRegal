@@ -80,7 +80,7 @@ export const products = [
   {
     id: 4,
     name: "Gâteau avec autocollants",
-    price: "20 000 FCFA",
+    price: "30 000 FCFA",
     img: gateau_autocollants,
   },
   {
@@ -152,7 +152,7 @@ export const products = [
   {
     id: 16,
     name: "Gâteau deux étages avec patte à sucre",
-    price: "100 000 FCFA",
+    price: "80 000 FCFA",
     img: gateau_2etages_patte_sucre,
   },
   {
@@ -314,7 +314,7 @@ export const products = [
   {
     id: 43,
     name: "Gâteau papillon",
-    price: "25 000 FCFA",
+    price: "30 000 FCFA",
     img: gateau_papillon,
   },
   {
@@ -368,7 +368,7 @@ export const products = [
   {
     id: 52,
     name: "Gâteau pour amoureux",
-    price: "20 à 30 000 FCFA",
+    price: "25 000 FCFA",
     img: gateau_amoureux,
   },
   {
