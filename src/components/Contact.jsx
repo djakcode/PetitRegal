@@ -22,22 +22,22 @@ const Contact = () => {
               <div className="flex items-center space-x-4 text-gray-700">
                 <Mail className="w-6 h-6 text-pink-500" />
                 <a
-                  href="mailto:contact@petitregal.ml"
+                  href="mailto:contact@petitregal.com"
                   className="hover:underline"
                 >
-                  contact@petitregal.ml
+                  contact@petitregal.com
                 </a>
               </div>
               <div className="flex items-center space-x-4 text-gray-700">
                 <Phone className="w-6 h-6 text-pink-500" />
-                <a href="tel:+22370000000" className="hover:underline">
+                <a href="tel:+22376222240" className="hover:underline">
                   +223 76 22 22 40
                 </a>
               </div>
               <div className="flex items-start space-x-4 text-gray-700">
                 <MapPin className="w-6 h-6 text-pink-500 flex-shrink-0" />
                 <p>
-                  Rue du Marché, Quartier du fleuve, <br />
+                  Kalabancoro Chicoro, <br />
                   Bamako, Mali
                 </p>
               </div>

@@ -43,8 +43,8 @@ function Hero() {
             className="text-lg md:text-xl text-gray-700 mb-8 max-w-lg mx-auto lg:mx-0"
             variants={itemVariants}
           >
-            Découvrez nos glaces et gâteaux artisanaux, préparés avec passion à
-            Bamako pour un plaisir glacé inoubliable.
+            Découvrez nos gâteaux artisanaux et glaces, préparés avec passion à
+            Bamako et environ pour un plaisir glacé inoubliable.
           </motion.p>
           <motion.div variants={itemVariants}>
             <Link

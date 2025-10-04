@@ -17,11 +17,15 @@ const Footer = () => {
               />
             </Link>
             <p className="text-center md:text-left text-gray-400 max-w-sm">
-              Découvrez la douceur de l'artisanat malien à travers nos glaces
-              uniques et rafraîchissantes.
+              Découvrez la douceur de l'artisanat malien à travers nos gateaux
+              uniques et rafraîchissants.
             </p>
             <div className="flex space-x-4 mt-4 text-white">
-              <a href="#" aria-label="Facebook">
+              <a
+                href="https://www.facebook.com/profile.php?id=61581840383694"
+                target="_blank"
+                aria-label="Facebook"
+              >
                 <Facebook className="w-6 h-6 hover:text-pink-500 transition-colors" />
               </a>
               <a href="#" aria-label="Instagram">
@@ -74,12 +78,12 @@ const Footer = () => {
             <ul className="space-y-3 text-gray-400">
               <li className="flex items-center space-x-2">
                 <MapPin className="w-5 h-5 text-pink-500" />
-                <span>Bamako, Mali</span>
+                <span>Kalabancoro Chicoro - Bamako, Mali</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Phone className="w-5 h-5 text-pink-500" />
                 <a
-                  href="tel:+22399999999"
+                  href="tel:+22376222240"
                   className="hover:text-pink-500 transition-colors"
                 >
                   +223 76 22 22 40
@@ -88,10 +92,10 @@ const Footer = () => {
               <li className="flex items-center space-x-2">
                 <Mail className="w-5 h-5 text-pink-500" />
                 <a
-                  href="mailto:contact@petitregal.ml"
+                  href="mailto:contact@petitregal.com"
                   className="hover:text-pink-500 transition-colors"
                 >
-                  contact@petitregal.ml
+                  contact@petitregal.com
                 </a>
               </li>
             </ul>

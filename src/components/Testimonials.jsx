@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const avis = [
   {
     name: "Awa",
-    text: "Les meilleures glaces de Bamako ! 😍",
+    text: "Les meilleurs gâteaux de Bamako ! 😍",
     title: "Cliente fidèle",
   },
   {
@@ -13,7 +13,12 @@ const avis = [
   },
   {
     name: "Fatou",
-    text: "J’adore la glace à la mangue 🍹",
+    text: "J’adore le gâteau au chocolat 🍹",
+    title: "Amateur de fruits",
+  },
+  {
+    name: "Mariam",
+    text: "Le gâteau de mon mariage était juste fabuleux🍹",
     title: "Amateur de fruits",
   },
 ];
