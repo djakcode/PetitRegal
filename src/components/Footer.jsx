@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Facebook, Instagram, Phone, Mail, MapPin } from "lucide-react";
+import { FaTiktok } from "react-icons/fa";
 import logo from "../images/logo-petit-regal-1.png";
 
 const Footer = () => {
@@ -30,6 +31,13 @@ const Footer = () => {
               </a>
               <a href="#" aria-label="Instagram">
                 <Instagram className="w-6 h-6 hover:text-pink-500 transition-colors" />
+              </a>
+              <a
+                href="https://vm.tiktok.com/ZMAfKSDXV/"
+                target="_blank"
+                aria-label="TikTok"
+              >
+                <FaTiktok className="w-6 h-6 hover:text-pink-500 transition-colors" />
               </a>
             </div>
           </div>

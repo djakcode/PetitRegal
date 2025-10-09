@@ -16,11 +16,6 @@ const avis = [
     text: "J’adore le gâteau au chocolat 🍹",
     title: "Amateur de fruits",
   },
-  {
-    name: "Mariam",
-    text: "Le gâteau de mon mariage était juste fabuleux🍹",
-    title: "Amateur de fruits",
-  },
 ];
 
 const containerVariants = {

@@ -71,7 +71,7 @@ function Hero() {
           {/* Remplacez ceci par l'URL de votre image */}
           <img
             src={gateau_mariage_4etages_fleurs}
-            alt="Magnifique glace artisanale"
+            alt="Magnifique gateau de mariage artisanale"
             className="rounded-3xl shadow-2xl w-full max-w-md object-cover max-h-96"
           />
         </motion.div>

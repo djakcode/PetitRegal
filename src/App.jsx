@@ -5,11 +5,13 @@ import Commande from "./pages/Commande";
 import Footer from "./components/Footer";
 import ContactPage from "./pages/ContactPage";
 import Catalogue from "./pages/Catalogue";
+import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
   return (
     <Router>
       <div className="flex flex-col min-h-screen">
+        <ScrollToTop />
         {/* Navbar */}
         <Navbar />
 
