@@ -1,6 +1,67 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 @import "tailwindcss";
+@theme {
+  /* Palette de chocolat */
+  --color-chocolat-50: #fbf5f2;
+  --color-chocolat-100: #f3e8e1;
+  --color-chocolat-200: #e7d4c8;
+  --color-chocolat-300: #d5b9a9;
+  --color-chocolat-400: #bf9580;
+  --color-chocolat-500: #a57158;
+  --color-chocolat-600: #865741;
+  --color-chocolat-700: #65402f;
+  --color-chocolat-800: #492b1d;
+  --color-chocolat-900: #371e13; /* Brun Chocolat (navbar, Texte & Footer) */
+
+  /* Palette de couleur crême */
+  --color-fond-50: #fffbf4; /*  Crème Pâtissier */
+  --color-fond-100: #fbf4e4; /*  Crème Pâtissier */
+  --color-fond-200: #f7e7cd; /*  Crème Pâtissier */
+  --color-fond-300: #eed3b0; /*  Crème Pâtissier */
+  --color-fond-400: #ddb681; /*  Crème Pâtissier */
+  --color-fond-500: #c19760; /*  Crème Pâtissier */
+  --color-fond-600: #a47f4c; /*  Crème Pâtissier */
+  --color-fond-700: #7e5b37; /*  Crème Pâtissier */
+  --color-fond-800: #5c4026; /*  Crème Pâtissier */
+  --color-fond-900: #3c2714; /*  Crème Pâtissier */
+
+  /* Palette de couleur rose cerise */
+  --color-cerise-50: #feeae9; /*  Rouge Cerise (Accent/CTA) */
+  --color-cerise-100: #fcd6d5; /*  Rouge Cerise (Accent/CTA) */
+  --color-cerise-200: #f9a4a3; /*  Rouge Cerise (Accent/CTA) */
+  --color-cerise-300: #f46b69; /*  Rouge Cerise (Accent/CTA) */
+  --color-cerise-400: #e55c5a; /*  Rouge Cerise (Accent/CTA) */
+  --color-cerise-500: #dd4a48; /*  Rouge Cerise (Accent/CTA) */
+  --color-cerise-600: #c23e3c; /*  Rouge Cerise (Accent/CTA) */
+  --color-cerise-700: #a23331; /*  Rouge Cerise (Accent/CTA) */
+  --color-cerise-800: #812826; /*  Rouge Cerise (Accent/CTA) */
+  --color-cerise-900: #611c1a; /*  Rouge Cerise (Accent/CTA) */
+
+  /* Palette de couleur or */
+  --color-or-50: #fffbe9; /*  Or Gourmand (Titres/Liens) */
+  --color-or-100: #fff4c2; /*  Or Gourmand (Titres/Liens) */
+  --color-or-200: #feea8c; /*  Or Gourmand (Titres/Liens) */
+  --color-or-300: #fecd4d; /*  Or Gourmand (Titres/Liens) */
+  --color-or-400: #ffda0d; /*  Or Gourmand (Titres/Liens) */
+  --color-or-500: #ffd700; /*  Or Gourmand (Titres/Liens) */
+  --color-or-600: #e5c200; /*  Or Gourmand (Titres/Liens) */
+  --color-or-700: #b29600; /*  Or Gourmand (Titres/Liens) */
+  --color-or-800: #806c00; /*  Or Gourmand (Titres/Liens) */
+  --color-or-900: #4d4000; /*  Or Gourmand (Titres/Liens) */
+
+  /* Palette de couleur praline */
+  --color-praline-50: #fdf9f4; /*  Beige Praliné (Bordures) */
+  --color-praline-100: #f7f0e3; /*  Beige Praliné (Bordures) */
+  --color-praline-200: #eeddc8; /*  Beige Praliné (Bordures) */
+  --color-praline-300: #e1c49f; /*  Beige Praliné (Bordures) */
+  --color-praline-400: #d8af76; /*  Beige Praliné (Bordures) */
+  --color-praline-500: #c29658; /*  Beige Praliné (Bordures) */
+  --color-praline-600: #aa8045; /*  Beige Praliné (Bordures) */
+  --color-praline-700: #886333; /*  Beige Praliné (Bordures) */
+  --color-praline-800: #644625; /*  Beige Praliné (Bordures) */
+  --color-praline-900: #412b16; /*  Beige Praliné (Bordures) */
+}
 
 body {
   font-family: "Outfit", sans-serif;

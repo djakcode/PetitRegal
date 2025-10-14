@@ -13,12 +13,12 @@ const Home = () => {
   const cheapestProducts = sortedProducts.slice(0, 8);
 
   return (
-    <>
+    <div className="bg-fond-50">
       {/* Section d'accueil (bannière principale) */}
       <Hero />
 
       {/* Section "Nos délices" avec les 8 produits les moins chers */}
-      <section className="py-16 bg-gray-50">
+      <section className="pt-12 pb-20 bg-fond-100">
         <div className="container mx-auto px-4">
           {/* Composant Produits */}
           <Products
@@ -33,7 +33,7 @@ const Home = () => {
           <div className="text-center mt-10">
             <Link
               to="/catalogue"
-              className="inline-block bg-pink-500 text-white font-bold py-3 px-8 rounded-full shadow-md hover:bg-pink-600 transition-colors duration-300"
+              className="inline-flex items-center gap-3 bg-cerise-600 text-fond-50 font-bold py-4 px-10 rounded-full shadow shadow-cerise-500/50 hover:bg-or-500 hover:text-chocolat-900 transition-all duration-300 transform hover:scale-[1.03] text-lg"
             >
               Voir tout le catalogue 🍦
             </Link>
@@ -41,12 +41,18 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Séparateur visuel */}
+      <hr className="border-t-2 border-praline-300" />
+
       {/* Témoignages des clients */}
       <Testimonials />
 
+      {/* Séparateur visuel */}
+      <hr className="border-t-2 border-praline-300" />
+
       {/* Section contact */}
       <Contact />
-    </>
+    </div>
   );
 };
 
